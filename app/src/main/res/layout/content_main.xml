@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/_3sdp"
+    android:layout_marginRight="@dimen/_3sdp"
+    android:background="#E0E0E0"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/trend_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/blue_rounded_shape"
+                    android:drawableLeft="@drawable/home"
+                    android:fontFamily="@font/calibri"
+                    android:padding="8dp"
+                    android:text="মূল পাতা"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/trend_details0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_3sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/blue_rounded_shape"
+                    android:drawableLeft="@drawable/account"
+                    android:fontFamily="@font/calibri"
+                    android:padding="8dp"
+                    android:text="প্রোফাইল"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="@dimen/_3sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/blue_rounded_shape"
+                    android:drawableLeft="@drawable/logout"
+                    android:fontFamily="@font/calibri"
+                    android:padding="8dp"
+                    android:text="লগ আউট"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_25sdp"
+                    android:layout_marginTop="@dimen/_25sdp"
+                    android:layout_marginRight="@dimen/_25sdp"
+                    android:layout_weight="3"
+                    android:background="@drawable/a"
+                    android:drawableRight="@drawable/plex"
+                    android:fontFamily="@font/calibri"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="নোটিশ"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_25sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_25sdp"
+                    android:layout_weight="3"
+                    android:background="@drawable/b"
+                    android:drawableRight="@drawable/plex"
+                    android:fontFamily="@font/calibri"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="ক্লাস উপস্থিতি"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_25sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_25sdp"
+                    android:layout_weight="3"
+                    android:background="@drawable/c"
+                    android:drawableRight="@drawable/plex"
+                    android:fontFamily="@font/calibri"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="ক্লাস রুটিন"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_25sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_25sdp"
+                    android:layout_weight="3"
+                    android:background="@drawable/d"
+                    android:drawableRight="@drawable/plex"
+                    android:fontFamily="@font/calibri"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="নোট ও সিলেবাস"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_25sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_25sdp"
+                    android:layout_weight="3"
+                    android:background="@drawable/e"
+                    android:drawableRight="@drawable/plex"
+                    android:fontFamily="@font/calibri"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="ক্লাস মূল্যায়ন পরীক্ষা"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_25sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_25sdp"
+                    android:layout_weight="3"
+                    android:background="@drawable/f"
+                    android:drawableRight="@drawable/plex"
+                    android:fontFamily="@font/calibri"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="পরীক্ষার রুটিন"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_25sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_25sdp"
+                    android:layout_weight="3"
+                    android:background="@drawable/g"
+                    android:drawableRight="@drawable/plex"
+                    android:fontFamily="@font/calibri"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="সৃজনশীল পরীক্ষা"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_25sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_25sdp"
+                    android:layout_weight="3"
+                    android:background="@drawable/h"
+                    android:drawableRight="@drawable/plex"
+                    android:fontFamily="@font/calibri"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="MCQ পরীক্ষা"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_25sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_25sdp"
+                    android:layout_weight="3"
+                    android:background="@drawable/i"
+                    android:drawableRight="@drawable/plex"
+                    android:fontFamily="@font/calibri"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="ফলাফল"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_25sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_25sdp"
+                    android:layout_weight="3"
+                    android:background="@drawable/j"
+                    android:drawableRight="@drawable/plex"
+                    android:fontFamily="@font/calibri"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="আপনার মতামত দিন"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/foot"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:fontFamily="@font/calibri"
+                android:text="কারিগরী সহায়তায়"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/foot"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_25sdp"
+                    android:layout_marginRight="@dimen/_25sdp"
+                    android:layout_weight="3"
+                    android:fontFamily="@font/calibri"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="HR SOFT BD"
+                    android:textColor="#006536"
+                    android:textSize="22sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>
